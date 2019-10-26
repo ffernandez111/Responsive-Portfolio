@@ -224,26 +224,27 @@ body {
     #body {
       position: static
     }
-    #masthead {
-      position: static;
-    }
+   
     #logo {
         position: static;
     }
     .auth-image {
       position: static;
       width: 100%;
+    }
    
     .main-section {
       position: static;
     }
+    
     .container {
       position: static;
       width: 640px;
     }
     .nav {
-      position: static;
-      width: 640px;
+      width: 200px;
+      float: left;
+      margin-right: 25px;
     }
     .main-section {
       position: static;
@@ -261,13 +262,14 @@ body {
     #masthead {
       position: static;
     }
+    
     #logo {
       position: static;
-      width: 256px;
+      width: 250px;
     }
   
     nav {
-      width: 420px;
+      width: 200px;
     }
   
     .main-section {
@@ -290,6 +292,10 @@ body {
     body {
       position: static;
     }
+
+    #header {
+      width: 980px;
+    }
   
     #masthead {
       width: 980px;
@@ -297,25 +303,36 @@ body {
   
     #logo {
       width: 250px;
+      margin-left: 50px;
     }
 
     nav {
-      margin-right: 100px;
+      margin-right: 150px;
+      
     }
   
     .main-section {
-      width: 390px;
+      width: 350px;
+      margin-left: 120px;
     }
     .auth-image {
-      position: static;
       width: 100%;
-  
-    .sidebar {
-      float: left;
-      width: 270px;
     }
   
+    .sidebar {
+        float: left;
+        width: 250px;
+        margin-left: 40px;
+    }
+
+    .work {
+      width: 100%;
+    }
   
+    .work:nth-child(even) {
+      float: left;
+    }
+
     footer {
       width: 980px;
     }
